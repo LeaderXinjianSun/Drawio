@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-10-13T03:05:33.706Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="W_wH4NgHJYAtFDGamZij" version="13.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-13T03:14:14.246Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="MTDPZOYvddE7PSB4_IGG" version="13.7.3" type="github">
   <diagram id="neM6gDobTcvTbkAM0NMb" name="Page-1">
-    <mxGraphModel dx="1320" dy="1653" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="868" dy="1619" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -109,6 +109,9 @@
         </mxCell>
         <mxCell id="Ogw6a6FwidyZY-46VILW-68" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=21;" vertex="1" parent="1">
           <mxGeometry x="1092" y="156" width="51" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="Ogw6a6FwidyZY-46VILW-70" value="&lt;ul&gt;&lt;li&gt;板状态：进、中、出 × 4&lt;/li&gt;&lt;li&gt;最后Client出板就把数据库板信息删除&lt;/li&gt;&lt;/ul&gt;" style="aspect=fixed;html=1;points=[];align=left;image;fontSize=12;image=img/lib/mscae/Azure_Media_Player.svg;" vertex="1" parent="1">
+          <mxGeometry x="427.5" y="-101" width="27" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
