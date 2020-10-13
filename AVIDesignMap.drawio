@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-10-13T03:03:26.044Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="1gsLWEjstHyx8luMks4b" version="13.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-13T03:05:33.706Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="W_wH4NgHJYAtFDGamZij" version="13.7.3" type="github">
   <diagram id="neM6gDobTcvTbkAM0NMb" name="Page-1">
-    <mxGraphModel dx="1240" dy="1812" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1320" dy="1653" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -69,7 +69,7 @@
         <mxCell id="Ogw6a6FwidyZY-46VILW-59" value="&lt;div&gt;&lt;ul&gt;&lt;li&gt;文件夹内有文件就处理&lt;/li&gt;&lt;li&gt;根据文件名拆分，将结果更新到对应条目&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/CrystalClear/128x128/apps/ktip.png;align=left;" vertex="1" parent="1">
           <mxGeometry x="426" y="-188" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Ogw6a6FwidyZY-46VILW-60" value="&lt;ul&gt;&lt;li&gt;感知到进板，查询板状态，得知板ID&lt;/li&gt;&lt;li&gt;更新板状态&lt;/li&gt;&lt;li&gt;拍摄图片到远端文件夹，保存特定文件名&lt;/li&gt;&lt;/ul&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/CrystalClear/128x128/apps/ktip.png;align=left;" vertex="1" parent="1">
+        <mxCell id="Ogw6a6FwidyZY-46VILW-60" value="&lt;ul&gt;&lt;li&gt;感知到进板，查询板状态，得知板ID&lt;/li&gt;&lt;li&gt;更新板状态&lt;/li&gt;&lt;li&gt;拍摄图片到远端文件夹，保存特定文件名&lt;/li&gt;&lt;li&gt;查询结果是否更新，说明Server处理完成，通知下位机放板&lt;/li&gt;&lt;/ul&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/CrystalClear/128x128/apps/ktip.png;align=left;" vertex="1" parent="1">
           <mxGeometry x="117" y="326" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ogw6a6FwidyZY-46VILW-62" value="&lt;ul&gt;&lt;li&gt;急停不影响上位机软件&lt;/li&gt;&lt;li&gt;放弃当前板，需手动确认，然后从数据库删除板条目&lt;/li&gt;&lt;/ul&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/32x32-free-design-icons/32/Delete.png;align=left;" vertex="1" parent="1">
